@@ -28,7 +28,7 @@ Every request to the vryno api would need a guid/uuid for each request, and ever
 
 Vryno client(javascript package) abstracts all this information and exposes a `fetch` kind of interface for communicating to the backend. 
 
-Following is demonstration of the public api. Using npm package wscat https://www.npmjs.com/package/wscat
+Following is demonstration of the public api. Using npm package [wscat](https://www.npmjs.com/package/wscat)
 
 All the sample requests can be found here inside the [requests folder](https://github.com/vryno/api-docs/tree/gh-pages/requests)
 
