@@ -1,0 +1,50 @@
+{
+  "requestId": "3eea04a0-6fb5-4d6e-a0f1-0d4b429006bc",
+  "request": {
+    "operationName": "save",
+    "variables": {
+      "id": null,
+      "modelName": "Contact",
+      "saveInput": {
+        "recordImage": null,
+        "title": "Mr",
+        "firstName": "Test",
+        "name": "Vryno",
+        "email": "vt11@mailinator.com",
+        "phoneNumber": "1234567890",
+        "jobTitle": null,
+        "skype": null,
+        "twitter": null,
+        "dob": null,
+        "organizationId": null,
+        "secondaryEmail": null,
+        "reportingToId": null,
+        "department": null,
+        "ownerId": "399b2ad0-ba9f-4abe-a6e8-6cf96a0506ad",
+        "industryId": null,
+        "leadSource": null,
+        "parentContactId": null,
+        "relationshipTypeId": null,
+        "billingAddress": null,
+        "billingCity": null,
+        "billingState": null,
+        "billingCountry": null,
+        "billingZipcode": null,
+        "shippingAddress": null,
+        "shippingCity": null,
+        "shippingState": null,
+        "shippingCountry": null,
+        "shippingZipcode": null,
+        "description": null,
+        "createdAt": null,
+        "updatedAt": null,
+        "createdBy": null,
+        "updatedBy": null,
+        "fields": {
+
+        }
+      }
+    },
+    "query": "mutation save($id: String, $modelName: String!, $saveInput: GenericData!) {\n  save(id: $id, modelName: $modelName, saveInput: $saveInput) {\n    status\n    data\n    code\n    message\n    messageKey\n    __typename\n  }\n}"
+  },
+  "accessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWwiOiJzdWdhQG1haWxpbmF0b3IuY29tIiwidWlkIjoiMzk5YjJhZDAtYmE5Zi00YWJlLWE2ZTgtNmNmOTZhMDUwNmFkIiwiaWF0IjoxNjQ4NzE0OTEzfQ.iLaw49vzDCxm88q0W4d6iPTNMA0wS5gTHpvqkiMNShA.YkVkoQ.hB92uKfDK_iMRLQOo18DwJylaFI" }
