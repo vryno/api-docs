@@ -21,5 +21,13 @@ Ascii recording of following video
 
 [![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
 
+<p align="center">
+  <img width="800" src="basic_echo_test.svg">
+</p>
+
+Request response files can be found here: 
+
+[![asciicast]()](https://asciinema.org/a/482550)
+
 
 
