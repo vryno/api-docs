@@ -20,7 +20,7 @@ Vryno client(javascript package) abstracts all this information and exposes a `f
 
 Following is demonstration of the public api. Using npm package wscat https://www.npmjs.com/package/wscat
 
-All the sample requests can be found here inside the [requests folder](https://github.com/vryno/api-docs/tree/gh-pages)
+All the sample requests can be found here inside the [requests folder](https://github.com/vryno/api-docs/tree/gh-pages/requests)
 
 #### Basic Echo test
 
@@ -28,10 +28,11 @@ All the sample requests can be found here inside the [requests folder](https://g
 
 [![basic_setup](basic_echo_test.svg)](https://asciinema.org/a/482550)
 
-Ascii recording of above demo can be found here as well https://asciinema.org/a/482550
+Ascii recording of above demo can be found here as well (https://asciinema.org/a/482550)
 
 #### Authentication
 
 ---
+As of now signup and login requires google captcha token, plan is to implement an oauth flow, so that user can login without the captcha.
+So, first signup at at (https://app.vryno.vom/signup) then login at (https://app.vryno.vom/login) a cookie will be set with the name `vryno-access-token` that is required for any further api interaction.
 
-Signup requires a recaptcha token, so please first signup at https://app.vryno.vom/signup
