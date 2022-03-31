@@ -34,5 +34,5 @@ Ascii recording of above demo can be found here as well (https://asciinema.org/a
 
 ---
 As of now signup and login requires google captcha token, plan is to implement an oauth flow, so that user can login without the captcha.
-So, first signup at at (https://app.vryno.vom/signup) then login at (https://app.vryno.vom/login) a cookie will be set with the name `vryno-access-token` that is required for any further api interaction.
+So, first [signup](https://app.vryno.vom/signup) then [login](https://app.vryno.vom/login) a cookie will be set with the name `vryno-access-token` that is required for any further api interaction.
 
