@@ -38,7 +38,7 @@ All the sample requests can be found here inside the [requests folder](https://g
 
 [![basic_setup](./ascii-svgs/basic_echo_test.svg)](https://asciinema.org/a/482550)
 
-Ascii recording of above demo can be found here as well [Basic Authentication](https://asciinema.org/a/482550)
+Ascii recording of above demo can be found here as well [Basic Echo](https://asciinema.org/a/482550)
 
 #### Authentication
 
@@ -61,4 +61,5 @@ To make a record you would need to know the instance subdomain under which you a
 [![create_contact](./ascii-svgs/create_contact.svg)](https://asciinema.org/a/482765)
 
 
+Ascii recording of above demo can be found here as well [Create Contact](https://asciinema.org/a/482765)
 
