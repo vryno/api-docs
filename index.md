@@ -63,3 +63,15 @@ To make a record you would need to know the instance subdomain under which you a
 
 Ascii recording of above demo can be found here as well [Create Contact](https://asciinema.org/a/482765)
 
+
+#### Updating Records
+
+---
+To update a record you would need an id of the record to be updated, which would be available on return of the record creation. 
+
+#### Deleting Records
+
+---
+Vryno supports only soft deletion of records, the property that drives whether the data is marked as deleted or not, is `record_status`. 
+First record_status would be set to `d`. if you want record to not to even show in recycle bin. 
+You would have to set `record_status` to `p`  
